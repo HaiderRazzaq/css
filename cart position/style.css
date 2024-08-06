@@ -1,0 +1,95 @@
+* {
+    /* padding: 0;
+    margin: 0; */
+    color: white;
+}
+
+section {
+    position: relative;
+}
+
+div.cart1 {
+    background-color: rgb(49, 51, 52);
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+
+}
+
+div .mainimg {
+    width: 500px;
+    height: 300px;
+}
+
+.img1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.text {
+    margin-inline: 20px;
+    font-size: 23px;
+}
+
+div .btn1 {
+    background-color: rgba(198, 176, 241, 0.758);
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 20px;
+    position: absolute;
+    top: 630px;
+    font-size: larger;
+}
+
+div .btn1:hover {
+    background-color: rgba(198, 176, 241, 0.9);
+}
+
+
+
+
+
+div.cart2 {
+    background-color: rgb(49, 51, 52);
+    width: 500px;
+    height: 700px;
+    border-radius: 20px;
+    position: absolute;
+    left: 520px;
+    top: 0px;
+}
+
+div .mainimg2 {
+    width: 500px;
+    height: 300px;
+}
+
+.img2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.text2 {
+    margin-inline: 20px;
+    font-size: 23px;
+}
+
+div .btn3 {
+    background-color: rgba(198, 176, 241, 0.758);
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 20px;
+    position: absolute;
+    top: 630px;
+    font-size: larger;
+}
+
+div .btn2:hover {
+    background-color: rgba(198, 176, 241, 0.9);
+}
