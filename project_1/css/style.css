@@ -1,5 +1,6 @@
 :root {
     --sectionmargin: 5%;
+    --borderreddown: 30px;
 
 }
 
@@ -111,10 +112,10 @@ section div div.right {
 /* right top div */
 section div div.right div.top {
     /* background-color: aqua; */
-    flex: .1;
+    /* flex: .1; */
     display: flex;
     justify-content: space-evenly;
-
+    height: 10%;
     align-items: center;
 }
 
@@ -159,13 +160,30 @@ section div div.right div.down {
     /* background-color: rgb(34, 46, 50); */
     /* flex:1.12; */
     width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
+section div div.right div.down div.dleft {
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    border: none;
+    border-radius: var(--borderreddown);
+
+}
+
+section div div.right div.down div.dright {
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    border: none;
+    border-radius: var(--borderreddown);
 
 
-
-
+}
 
 
 
