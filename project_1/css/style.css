@@ -23,16 +23,17 @@ section div div.left {
     height: 100%;
     flex: 1;
     display: flex;
-    gap:12%;
+    /* gap:12%; */
     flex-direction: column;
 
 }
 
 section div div.left div.logo {
-    flex: .5;
+    flex: .2;
     display: flex;
     align-items: center;
     background-color: bisque;
+    margin-bottom: 60px;
 }
 
 section div div.left div.text {
@@ -58,7 +59,11 @@ section div div.left div.text div.ptext {
 
 section div div.left div.button {
     /* background-color: rgb(246, 84, 235); */
-    flex: .8;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 section div div.left div.button button.btn {
@@ -105,14 +110,36 @@ section div div.right {
 /* right top div */
 section div div.right div.top{
     background-color: aqua;
-    flex:0.5;
-
+    /* flex:.2; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+
+section div div.right div.top div.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* right down div */
 section div div.right div.down{
-    background-color: rgb(0, 255, 47);
-    flex:1;
+    background-color: rgb(34, 46, 50);
+    /* flex:1; */
+    width: 100%;
 }
 
 
