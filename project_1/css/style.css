@@ -32,7 +32,7 @@ section div div.left div.logo {
     flex: .2;
     display: flex;
     align-items: center;
-    background-color: bisque;
+    /* background-color: bisque; */
     margin-bottom: 60px;
 }
 
@@ -76,8 +76,8 @@ section div div.left div.button button.btn {
     background-color: hwb(242 0% 36%);
 }
 
-section div div.left div.button button.btn:hover{
-    background-color: hwb(268 25% 6%);
+section div div.left div.button button.btn:hover {
+    background-color: hwb(235 49% 0%);
 }
 
 
@@ -107,24 +107,43 @@ section div div.right {
     background-image: url("/project_1/assets/images/4.png");
     background-size: cover;
 }
+
 /* right top div */
-section div div.right div.top{
-    background-color: aqua;
-    /* flex:.2; */
+section div div.right div.top {
+    /* background-color: aqua; */
+    flex: .1;
     display: flex;
     justify-content: space-evenly;
+
     align-items: center;
 }
 
 
-section div div.right div.top div.nav ul{
+section div div.right div.top div.nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
+section div div.right div.top div.nav ul li {
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 10px;
+    border-radius: 35px;
+    color: white;
+    background-color: rgba(141, 96, 247, 0.25);
+}
 
+section div div.right div.top div.nav ul li:hover {
 
+    background-color: rgba(54, 27, 186, 0.25);
+}
+
+section div div.right div.top div.sign button.button {
+    padding: 13px;
+    border: 1px rgb(255, 255, 255) solid;
+    font-weight: bold;
+    border-radius: 35px;
+}
 
 
 
@@ -136,9 +155,9 @@ section div div.right div.top div.nav ul{
 
 
 /* right down div */
-section div div.right div.down{
-    background-color: rgb(34, 46, 50);
-    /* flex:1; */
+section div div.right div.down {
+    /* background-color: rgb(34, 46, 50); */
+    /* flex:1.12; */
     width: 100%;
 }
 
