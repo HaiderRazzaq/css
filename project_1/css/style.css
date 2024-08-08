@@ -1,5 +1,6 @@
 :root {
-    --leftmargin: 20px;
+    --sectionmargin: 5%;
+
 }
 
 * {
@@ -8,7 +9,7 @@
 }
 
 section {
-    height: 750px;
+    height: 700px;
 }
 
 section div.main {
@@ -18,8 +19,7 @@ section div.main {
 
 /* Start Left Div  */
 section div div.left {
-    /* background-color: bisque; */
-    margin-left: var(--leftmargin);
+    margin-left: var(--sectionmargin);
     height: 100%;
     flex: 1;
     display: flex;
@@ -28,26 +28,45 @@ section div div.left {
 }
 
 section div div.left div.logo {
-    /* background-color: lightblue; */
-    flex: .15;
+    flex: .4;
     display: flex;
     align-items: center;
 }
 
 section div div.left div.text {
-    /* background-color: rgb(105, 247, 147); */
     flex: 1;
     display: flex;
     font-size: larger;
     flex-direction: column;
-    justify-content: space-evenly;
+}
+
+section div div.left div.text div.headline {
+    font-size: xx-large;
+    margin-right: 35%;
+    margin-bottom: 2%;
+    font-weight: bold;
+
+}
+
+section div div.left div.text div.ptext {
+    margin-right: 20%;
+
 }
 
 section div div.left div.button {
-    background-color: rgb(246, 84, 235);
-    flex: 1;
+    /* background-color: rgb(246, 84, 235); */
+    flex: .9;
 }
 
+section div div.left div.button button.btn {
+    padding: 18px 55px;
+    border: none;
+    border-radius: 14px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    background-color: hwb(242 0% 36%);
+}
 
 
 
@@ -65,6 +84,7 @@ section div div.left div.button {
 
 /* Start right div */
 section div div.right {
+    margin-right: var(--sectionmargin);
     background-color: rgb(50, 100, 236);
     height: 100%;
     flex: 1;
