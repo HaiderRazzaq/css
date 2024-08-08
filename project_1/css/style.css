@@ -172,6 +172,10 @@ section div div.right div.down div.dleft {
     background-color: white;
     border: none;
     border-radius: var(--borderreddown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 
 }
 
@@ -181,7 +185,10 @@ section div div.right div.down div.dright {
     background-color: white;
     border: none;
     border-radius: var(--borderreddown);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 
 }
 
