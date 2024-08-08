@@ -1,0 +1,73 @@
+:root {
+    --leftmargin: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    height: 750px;
+}
+
+section div.main {
+    height: 100%;
+    display: flex;
+}
+
+/* Start Left Div  */
+section div div.left {
+    /* background-color: bisque; */
+    margin-left: var(--leftmargin);
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+section div div.left div.logo {
+    /* background-color: lightblue; */
+    flex: .15;
+    display: flex;
+    align-items: center;
+}
+
+section div div.left div.text {
+    /* background-color: rgb(105, 247, 147); */
+    flex: 1;
+    display: flex;
+    font-size: larger;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section div div.left div.button {
+    background-color: rgb(246, 84, 235);
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Left Div */
+
+/* Start right div */
+section div div.right {
+    background-color: rgb(50, 100, 236);
+    height: 100%;
+    flex: 1;
+}
+
+/* End right Div */
