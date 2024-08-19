@@ -9,7 +9,8 @@
     margin: 0;
 }
 
-section {
+section.first {
+    background-color: aqua;
     height: 600px;
 }
 
