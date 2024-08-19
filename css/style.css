@@ -203,4 +203,20 @@ section.featured {
     margin-left: var(--sectionmargin);
     margin-right: var(--sectionmargin);
     background-color: blueviolet;
+    margin-top: 50px;
+}
+
+section.featured div.recommendation {
+    color: orange;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* this before to add line before words */
+section.featured div.recommendation::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 2px;
+    background-color: orange;
 }
