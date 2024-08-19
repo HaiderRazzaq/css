@@ -194,7 +194,13 @@ section div div.right div.down div.dright {
 }
 
 
-
-
-
 /* End right Div */
+
+
+
+section.featured {
+    height: 750px;
+    margin-left: var(--sectionmargin);
+    margin-right: var(--sectionmargin);
+    background-color: blueviolet;
+}
