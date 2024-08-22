@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: large;
+}
+
+body {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* This for nav  */
+a {
+    text-decoration: none;
+}
+
+section.header {
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.header div.user p.name {
+    border: rgb(185, 184, 184) solid 0.5px;
+    border-radius: 20px 2px;
+    padding: 20px 25px;
+}
+
+section.header div.nav {
+    height: 70px;
+    margin-top: 10px;
+}
+
+section.header div.nav ul.main-list {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+section.header div.nav ul.main-list li.list {
+    border: rgb(185, 184, 184) solid 0.5px;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+
+section.header div.nav ul.main-list li.list:hover {
+    background-color: rgb(154, 50, 252);
+    color: white;
+}
+
+/* for add new authors */
+
+section.add-authors {
+    margin-top: 30px;
+
+    height: 100px;
+}
+
+section.add-authors div.main form.add-authors-form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: rgb(185, 184, 184) solid 0.5px;
+    border-radius: 20px 5px;
+    padding: 20px 25px;
+}
+
+section.add-authors div.main form.add-authors-form input {
+    border: rgb(185, 184, 184) solid 0.5px;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+
+section.add-authors div.main form.add-authors-form input.submit {
+    border: rgb(255, 239, 239) solid 0.5px;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+
+section.add-authors div.main form.add-authors-form input.submit:hover {
+    background-color: rgb(154, 50, 252);
+    color: white;
+    border: rgb(255, 239, 239) solid 0.5px;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+section.authors{
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid rgb(201, 199, 199);
+    font-size: larger;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dadbdb;
+}
+
+tr.table-data:hover {
+    font-weight: bolder;
+    background-color: #9ce2e2;
+}
