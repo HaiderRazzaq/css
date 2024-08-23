@@ -28,63 +28,31 @@
             </ul>
         </div>
     </section>
-    <!-- Add New Author -->
-    <section class="add-authors">
-        <div class="main">
-            <form class="add-authors-form" action="" method="post">
-                <div class="a-name">
-                    <label for="name">Author Name</label>
-                    <input type="text" name="author_name" id="name">
-                </div>
-                <div class="a-note">
-                    <label for="name">Author Note</label>
-                    <input type="text" name="author_note" id="note">
-                </div>
-                <div>
-                    <input type="submit" class="submit" value="Add New Author">
-                </div>
-            </form>
-        </div>
-    </section>
-    <!-- authors Table -->
-    <section class="authors">
-        <div class="table-main">
-            <h1>Authors Lists</h1>
-            <table class="mainT">
-                <tr>
-                    <th>#</th>
-                    <th>Author Name</th>
-                    <th>Note</th>
-                    <th>Books Count</th>
-                    <th>Control</th>
-                </tr>
-                <tr class="table-data">
-                    <td>1</td>
-                    <td>Haider</td>
-                    <td>Software</td>
-                    <td>43</td>
-                    <td class="td-control">
-                        <div class="cont-list">
-                            <ul class="ul-cont">
-                                <a href="http://">
-                                    <li class="cont-item-list">
-                                        Edit
-                                    </li>
-                                </a>
-                                <li class="cont-item-list">
-                                    <form action="" method="post">
-                                        <input class="delete" type="submit" value="Delete">
-                                    </form>
-                                </li>
-                            </ul>
-                        </div>
 
-                    </td>
-                </tr>
-            </table>
 
-        </div>
-    </section>
+    <div class="container">
+        <h1 class="select-authors">Select Authors for a Book</h1>
+        <form class="form-authors-books">
+            <label class="label-select" for="book">Select Book:</label>
+            <select class="select-authors-book" id="book" name="book">
+                <option value="book1">Book 1</option>
+                <option value="book2">Book 2</option>
+                <option value="book3">Book 3</option>
+                <option value="book4">Book 4</option>
+            </select>
+
+            <label class="label-select" for="authors">Select Authors:</label>
+            <select class="select-authors-book" id="authors" name="authors" multiple>
+                <option value="author1">Author 1</option>
+                <option value="author2">Author 2</option>
+                <option value="author3">Author 3</option>
+                <option value="author4">Author 4</option>
+                <option value="author5">Author 5</option>
+            </select>
+
+            <input class="submit-authors-book" type="submit" value="Save">
+        </form>
+    </div>
 </body>
 
 </html>
